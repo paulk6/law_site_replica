@@ -24,14 +24,27 @@ img {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin: 25px auto;
+  color: lightgrey;
 }
 
 .nav-button {
   display: inline-block;
-  width: 20%;
+  width: 19%;
   font-size: 10px;
-  padding: 0px;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+.nav-button>a {
+  color: black;
+}
+
+.nav-button>a:hover {
+  color: maroon;
+  text-decoration: none;
+}
+
 
 .btn-group {
   margin-top: 15px;
