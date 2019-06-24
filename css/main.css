@@ -128,20 +128,34 @@ img {
 }
 
 #welcome {
-  font-size: 75%;
+  font-size: 95%;
 }
 
 #contact-info{
   font-size: 60%;
 }
 
+#contact-info>span {
+  font-size: 130%
+}
+
+
 #contact-info p {
-  font-size: 90%;
+  font-size: 150%;
 }
 
 #contact-info a{
   color: maroon;
   text-decoration: underline;
+}
+
+.who_images {
+  margin: 10px;
+  float: left;
+}
+
+.left-states {
+  text-align: left;
 }
 
 footer>div {
